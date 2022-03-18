@@ -20,4 +20,4 @@ J'aimerais découvrir les tendances de genre, de pays d'origine, comparé au tem
 
 ## Wireframe
 
-![wireframe](wireframe.png)
+![wireframe](wireframe.jpg)
