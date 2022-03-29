@@ -11,7 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "d3": "^7.3.0",
-    "d3-gridding": "^0.2.0"
+    "d3-gridding": "^0.2.0",
+    "pretty-ms": "^7.0.1",
+    "string-to-ms": "^1.1.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.6",
