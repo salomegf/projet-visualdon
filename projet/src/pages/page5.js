@@ -17,44 +17,24 @@ function page5(astronautes, femmes, hommes) {
 
 
     //Calculs %
-    const paysFemmes = femmes.map((d, i) => {
-        return d.Country
-    });
+    function countPays(array) {
+        const pays = array.map((d, i) => {
+            return d.Country
+        });
 
-    const paysHommes = hommes.map((d, i) => {
-        return d.Country
-    });
-
-    const paysTotal = astronautes.map((d, i) => {
-        return d.Country
-    });
-
-    const paysFemmesCount = {};
-    for (const pays of paysFemmes) {
-        if (paysFemmesCount[pays]) {
-            paysFemmesCount[pays] += 1;
-        } else {
-            paysFemmesCount[pays] = 1;
+        const paysCount = {};
+        for (const p of pays) {
+            if (paysCount[p]) {
+                paysCount[p] += 1;
+            } else {
+                paysCount[p] = 1;
+            }
         }
+        return paysCount;
     }
-
-    const paysHommesCount = {};
-    for (const pays of paysHommes) {
-        if (paysHommesCount[pays]) {
-            paysHommesCount[pays] += 1;
-        } else {
-            paysHommesCount[pays] = 1;
-        }
-    }
-
-    const paysCount = {};
-    for (const pays of paysTotal) {
-        if (paysCount[pays]) {
-            paysCount[pays] += 1;
-        } else {
-            paysCount[pays] = 1;
-        }
-    }
+    const paysFemmesCount = countPays(femmes);
+    const paysHommesCount = countPays(hommes);
+    const paysCount = countPays(astronautes);
 
     const tousPays = Object.keys(paysCount);
     //console.log(tousPays);
@@ -94,11 +74,11 @@ function page5(astronautes, femmes, hommes) {
         .range(d3.schemeOranges[5]);
 
     // Load external data and boot
-    d3.queue()
-        .defer(d3.json, "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson")
-        .await(ready);
+    Promise.all([
+        d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson")
+    ]).then(function (loadData) {
 
-    function ready(error, topo) {
+        let topo = loadData[0]
 
         let mouseOver = function (d) {
             d3.selectAll(".Country")
@@ -109,7 +89,7 @@ function page5(astronautes, femmes, hommes) {
                 .transition()
                 .duration(200)
                 .style("opacity", 1)
-                .style("stroke", "black")
+                .style("stroke", "gray")
         }
 
         let mouseLeave = function (d) {
@@ -145,7 +125,7 @@ function page5(astronautes, femmes, hommes) {
             .style("opacity", .8)
             .on("mouseover", mouseOver)
             .on("mouseleave", mouseLeave)
-    }
+    })
 
     //Légende
     //console.log(colorScale.domain());
