@@ -3,12 +3,39 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
+    align-items: center;
+
     /* background-color: orange;
     padding: 10px; */
 }
 
-/* button {
-    
+#viz {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    text-overflow: ellipsis;
 }
- */
+
+.personne {
+    width: 200px;
+}
+
+.nom {
+    font-weight: bold;
+    margin-top: 0.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.portrait {
+    width: 180px;
+    height: 225px;
+    object-fit: cover;
+}
+
+p {
+    margin: 0em;
+}

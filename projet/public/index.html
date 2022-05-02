@@ -14,11 +14,22 @@
 <body>
     <header>
         <h1><span class="material-symbols-outlined">rocket_launch</span> Astronautes</h1>
+        <div id="buttons">
+            <button id="previous" class="button_top"><span
+                    class="material-symbols-outlined">navigate_before</span></button>
+            <button id="next" class="button_top"><span class="material-symbols-outlined">navigate_next</span></button>
+        </div>
     </header>
-
     <h2></h2>
     <div id="viz"></div>
-    <button id="previous" class="button_top"><span class="material-symbols-outlined">navigate_before</span></button>
-    <button id="next" class="button_top"><span class="material-symbols-outlined">navigate_next</span></button>
+
+    <template id="template-personne">
+        <div class="personne">
+            <img class="portrait" src="" width="180">
+            <p class="nom"></p>
+            <!-- <p>Vols :</p> -->
+            <p class="vols"></p>
+        </div>
+    </template>
 
 </html>

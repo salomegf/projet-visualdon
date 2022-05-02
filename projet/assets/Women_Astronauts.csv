@@ -1,0 +1,65 @@
+Name;Order;Portrait;Country;Flag;Gender;Flights;Total Flights;Total Flight Time (ddd:hh:mm)s
+Valentina Tereshkova;14;https://cdn.sanity.io/images/2vtv415l/production/94a57017bc4a6e75018e56ce65d1ca3db1bb4a17-1077x1600.jpg;Soviet Union;☭;Woman;Vostok 6 (1963);1;002:22:50
+Svetlana Savitskaya;118;https://cdn.sanity.io/images/2vtv415l/production/920aa016a40311be83af3e966057031ea2d74b73-1096x1600.jpg;Soviet Union;☭;Woman;Soyuz T-7 (1982), Soyuz T-12 (1984);2;019:17:07
+Sally Ride;128;https://cdn.sanity.io/images/2vtv415l/production/f59afb45e826a33e4a61daa9c5624e23a18977ca-1024x1280.jpg;United States;🇺🇸;Woman;STS-7 (1983), STS-41-G (1984);2;014:07:47
+Judith Resnik;154;https://cdn.sanity.io/images/2vtv415l/production/6d63a2c708d608783c16d112a65d7529b62ded50-2846x3558.jpg;United States;🇺🇸;Woman;STS-41-D (1984), STS-51-L (1986);2;006:00:57
+Kathryn Sullivan;157;https://cdn.sanity.io/images/2vtv415l/production/bbde1d1fee43d2e66a871c668dc00b214e0a2214-4623x5832.jpg;United States;🇺🇸;Woman;STS-41-G (1984), STS-31 (1990), STS-45 (1992);3;022:04:49
+Anna Fisher;162;https://cdn.sanity.io/images/2vtv415l/production/d1250f24b87f159f499ddcf7e4db1e3d0aeeb570-5451x6814.jpg?w=2400&fit=max;United States;🇺🇸;Woman;STS-51-A (1984);1;007:23:44
+Margaret Seddon;168;https://cdn.sanity.io/images/2vtv415l/production/fadc0281823dc049aeaf1dff3fd2351df9e461c1-6571x8214.jpg;United States;🇺🇸;Woman;STS-51-D (1985), STS-40 (1991), STS-58 (1993);3;030:02:22
+Shannon Lucid;178;https://cdn.sanity.io/images/2vtv415l/production/2deefcb7d1778cc6c6761d834f7ef2bf427a343e-3672x4726.jpg;United States;🇺🇸;Woman;STS-51-G (1985), STS-34 (1989), STS-43 (1991), STS-58 (1993), STS-76 (1996);5;223:02:52
+Bonnie Dunbar;194;https://cdn.sanity.io/images/2vtv415l/production/8e8bb62db64d309a3b9134890ad6f8a6afc0270e-3269x4086.jpg;United States;🇺🇸;Woman;STS-61-A (1985), STS-32 (1990), STS-50 (1992), STS-71 (1995), STS-89 (1998);5;050:08:26
+Mary Cleave;200;https://cdn.sanity.io/images/2vtv415l/production/17d005c8678ba06214fa347e831d489f9ce32a2f-1024x1280.jpg;United States;🇺🇸;Woman;STS-61-B (1985), STS-30 (1989);2;010:22:01
+S. Christa McAuliffe;209;https://cdn.sanity.io/images/2vtv415l/production/87870c97f63e6fd3cd3a5e0e06e8c790d1a55f17-824x1280.jpg;United States;🇺🇸;Woman;STS-51-L (1986);1;000:00:01
+Ellen Baker;230;https://cdn.sanity.io/images/2vtv415l/production/be70f83a90101d80c57a4198bb9d40688dd86602-6326x7907.jpg;United States;🇺🇸;Woman;STS-34 (1989), STS-50 (1992), STS-71 (1995);3;028:14:32
+Kathryn Thornton;232;https://cdn.sanity.io/images/2vtv415l/production/450bf7aeb07a6e21bd1839589158450b2b36cf31-2400x3000.jpg;United States;🇺🇸;Woman;STS-33 (1989), STS-49 (1992), STS-61 (1993), STS-73 (1995);4;040:17:15
+Marsha Ivins;234;https://cdn.sanity.io/images/2vtv415l/production/0bc73d3104e2a3f5740473731e114aafad922c44-1024x1280.jpg;United States;🇺🇸;Woman;STS-32 (1990), STS-46 (1992), STS-62 (1994), STS-81 (1997), STS-98 (2001);5;055:21:49
+Linda Godwin;251;https://cdn.sanity.io/images/2vtv415l/production/f1d1cbbc5d282014398110e498791de5cae824ff-6078x7597.jpg;United States;🇺🇸;Woman;STS-37 (1991), STS-59 (1994), STS-76 (1996), STS-108 (2001);4;038:06:15
+Helen Sharman;259;https://cdn.sanity.io/images/2vtv415l/production/b737682c8c4ecae696642cc9086584c62517cd00-532x532.jpg;United Kingdom;🇬🇧;Woman;Soyuz TM-12 (1991);1;007:21:13
+Tamara Jernigan;261;https://cdn.sanity.io/images/2vtv415l/production/7eb782172d2f3e2a65026975e945efc30f0d86b0-1024x1280.jpg;United States;🇺🇸;Woman;STS-40 (1991), STS-52 (1992), STS-67 (1995), STS-80 (1996), STS-96 (1999);5;062:19:29
+Millie Hughes-Fulford;263;https://cdn.sanity.io/images/2vtv415l/production/6396e25a903de593fedcc38909f431de0e1150ca-1024x1280.jpg;United States;🇺🇸;Woman;STS-40 (1991);1;009:02:14
+Roberta Bondar;274;https://cdn.sanity.io/images/2vtv415l/production/54c252295908720cdaf934836e208dfdd45dd3f3-3017x3771.jpg;Canada;🇨🇦;Woman;STS-42 (1992);1;008:01:14
+N. Jan Davis;290;https://cdn.sanity.io/images/2vtv415l/production/837a71e91bd664d27b08bc3930b486868d937d52-1007x1280.jpg;United States;🇺🇸;Woman;STS-47 (1992), STS-60 (1994), STS-85 (1997);3;028:02:06
+Mae Jemison;291;https://cdn.sanity.io/images/2vtv415l/production/7ba6b96b03f6e585953a3be15129924d1c486f00-6204x7755.jpg;United States;🇺🇸;Woman;STS-47 (1992);1;007:22:30
+Susan Helms;295;https://cdn.sanity.io/images/2vtv415l/production/5eafa45a96dcf1cef1c6f95b3af92221a75ac8ae-1023x1280.jpg;United States;🇺🇸;Woman;STS-54 (1993), STS-64 (1994), STS-78 (1996), STS-101 (2000), STS-102 (2001);5;210:23:07
+Ellen Ochoa;298;https://cdn.sanity.io/images/2vtv415l/production/66371b35d72bc5e520107685fd9364d61d009a14-2888x3000.jpg;United States;🇺🇸;Woman;STS-56 (1993), STS-66 (1994), STS-96 (1999), STS-110 (2002);4;040:15:38
+Nancy Currie-Gregg;303;https://cdn.sanity.io/images/2vtv415l/production/bbb6c95a0d6e018a54c15967af5f7976fc29e6d5-3754x4683.jpg;United States;🇺🇸;Woman;STS-57 (1993), STS-70 (1995), STS-88 (1998), STS-109 (2002);4;041:15:33
+Janice Voss;305;https://cdn.sanity.io/images/2vtv415l/production/5fad3c80a690779c5272a2919361b30196cf065a-2040x2044.jpg;United States;🇺🇸;Woman;STS-57 (1993), STS-63 (1995), STS-83 (1997), STS-94 (1997), STS-99 (2000);5;049:03:51
+Chiaki Mukai;323;https://cdn.sanity.io/images/2vtv415l/production/5a28a1f15d251fba14d02a2ca44d7c40a8ccfe32-3298x4122.jpg;Japan;🇯🇵;Woman;STS-65 (1994), STS-95 (1998);2;023:15:39
+Yelena Kondakova;327;https://cdn.sanity.io/images/2vtv415l/production/83ee7e973ab4a3256a15b1ce687c507aa7e072b5-392x480.jpg;Russia;🇷🇺;Woman;Soyuz TM-20 (1994), STS-84 (1997);2;178:09:41
+Eileen Collins;331;https://cdn.sanity.io/images/2vtv415l/production/8387fb6e92d07202c0584c730a054cb022fa60a2-2615x3269.jpg;United States;🇺🇸;Woman;STS-63 (1995), STS-84 (1997), STS-93 (1999), STS-114 (2005);4;036:07:10
+Wendy Lawrence;334;https://cdn.sanity.io/images/2vtv415l/production/efdb5bf244f8eddd5a66749a37fb0f833c4b5ed0-1024x1280.jpg;United States;🇺🇸;Woman;STS-67 (1995), STS-86 (1997), STS-91 (1998), STS-114 (2005);4;052:03:55
+Mary Weber;338;https://cdn.sanity.io/images/2vtv415l/production/a873518368d0d1f490a80453760477440ca3f99c-1023x1280.jpg;United States;🇺🇸;Woman;STS-70 (1995), STS-101 (2000);2;018:18:29
+Catherine Coleman;343;https://cdn.sanity.io/images/2vtv415l/production/65eb009b09328edcfc87e11198292f60c2d29174-4620x5775.jpg;United States;🇺🇸;Woman;STS-73 (1995), STS-93 (1999), Soyuz TMA-20 (2010);3;180:03:59
+Claudie Haigneré;362;https://cdn.sanity.io/images/2vtv415l/production/5826662916159cbd6a8837d0d8b67854939e2100-2030x2910.jpg;France;🇫🇷;Woman;Soyuz TM-24 (1996), Soyuz TM-33 (2001);2;025:14:24
+Susan Still Kilrain;365;https://cdn.sanity.io/images/2vtv415l/production/0f6d6805ebe6c6bef30cd2eae56cb335790fe00a-477x600.jpg;United States;🇺🇸;Woman;STS-83 (1997), STS-94 (1997);2;019:15:57
+Kalpana Chawla;376;https://cdn.sanity.io/images/2vtv415l/production/a05f97e4dbb6fa517445cf7b9217092eeddfd349-2400x3000.jpg;United States;🇺🇸;Woman;STS-87 (1997), STS-107 (2003);2;031:14:54
+Kathryn Hire;386;https://cdn.sanity.io/images/2vtv415l/production/7bd2e0d4bf1337a662e97974ca74ca14d6ed3c67-3200x4000.jpg;United States;🇺🇸;Woman;STS-90 (1998), STS-130 (2010);2;029:15:58
+Janet Kavandi;390;https://cdn.sanity.io/images/2vtv415l/production/062121602b71789817b14627bdee02d6111267a6-3600x4500.jpg;United States;🇺🇸;Woman;STS-91 (1998), STS-99 (2000), STS-104 (2001);3;033:20:07
+Julie Payette;397;https://cdn.sanity.io/images/2vtv415l/production/5340c76be86bfc3173f938507c6fd38183e40604-2244x3000.jpg;Canada;🇨🇦;Woman;STS-96 (1999), STS-127 (2009);2;025:07:58
+Pamela Melroy;407;https://cdn.sanity.io/images/2vtv415l/production/e6a951f2cce971841e354f1840dde6a4e430d1f0-1023x1280.jpg;United States;🇺🇸;Woman;STS-92 (2000), STS-112 (2002), STS-120 (2007);3;038:20:04
+Peggy Whitson;429;https://cdn.sanity.io/images/2vtv415l/production/dc52d1faa9412a22e35feb256bd4ac11e349472f-1023x1280.jpg;United States;🇺🇸;Woman;STS-111 (2002), Soyuz TMA-11 (2007), Soyuz MS-03 (2016);3;665:22:27
+Sandra Magnus;432;https://cdn.sanity.io/images/2vtv415l/production/8631f87eb2304affbb4d391698a892274b427d8e-1023x1280.jpg;United States;🇺🇸;Woman;STS-112 (2002), STS-126 (2008), STS-135 (2011);3;157:08:44
+Laurel Clark;439;https://cdn.sanity.io/images/2vtv415l/production/69c8f8f2ab0203e045b51e64baacdbb2c4b60768-2205x3000.jpg;United States;🇺🇸;Woman;STS-107 (2003);1;015:22:20
+Lisa Nowak;454;https://cdn.sanity.io/images/2vtv415l/production/a36f8f89da2b8505a2870918f216c39d2e10e175-3200x4000.jpg;United States;🇺🇸;Woman;STS-121 (2006);1;012:18:36
+Stephanie Wilson;455;https://cdn.sanity.io/images/2vtv415l/production/d85247eb02cb4775f9f332a058194857aa3235aa-1024x1280.jpg;United States;🇺🇸;Woman;STS-121 (2006), STS-120 (2007), STS-131 (2010);3;042:23:47
+Heidemarie Stefanyshyn-Piper;457;https://cdn.sanity.io/images/2vtv415l/production/8b0e3b1136ba1776f4be252a621b265587682a1c-4637x5796.jpg;United States;🇺🇸;Woman;STS-115 (2006), STS-126 (2008);2;027:15:36
+Anousheh Ansari;458;https://cdn.sanity.io/images/2vtv415l/production/5e224d3615abe89f5b3af004bb5a3d801bd9e0bd-2250x3056.jpg;Iran;🇮🇷;Woman;Soyuz TMA-9 (2006);1;010:21:05
+Joan Higginbotham;462;https://cdn.sanity.io/images/2vtv415l/production/f80122ed8dd1982d2097c9723e7e34613e5e4399-3200x4000.jpg;United States;🇺🇸;Woman;STS-116 (2006);1;012:20:44
+Sunita Williams;463;https://cdn.sanity.io/images/2vtv415l/production/232941f4252323134da184c062a9ff6859aa0b39-1024x1280.jpg;United States;🇺🇸;Woman;STS-116 (2006), Soyuz TMA-05M (2012);2;321:17:15
+Tracy Caldwell Dyson;470;https://cdn.sanity.io/images/2vtv415l/production/738effd3355f2263339a4bb9a75c8c8b4d481633-1024x1280.jpg;United States;🇺🇸;Woman;STS-118 (2007), Soyuz TMA-18 (2010);2;188:19:15
+Barbara Morgan;471;https://cdn.sanity.io/images/2vtv415l/production/d2ce9df2fb0de5f72035f2be5334ded16baa94b7-2400x3000.jpg;United States;🇺🇸;Woman;STS-118 (2007);1;012:17:56
+Yi So-yeon;486;https://cdn.sanity.io/images/2vtv415l/production/fbc9d8e32203d8cdee191461ce00abf314ae5cfd-1091x1455.jpg;South Korea;🇰🇷;Woman;Soyuz TMA-12 (2008);1;010:21:13
+Karen Nyberg;488;https://cdn.sanity.io/images/2vtv415l/production/1e46a8bcf543337903bc7e3f419890cd2dac7745-2434x3090.jpg;United States;🇺🇸;Woman;STS-124 (2008), Soyuz TMA-09M (2013);2;180:00:30
+K. Megan McArthur;505;https://cdn.sanity.io/images/2vtv415l/production/e21ff25460b4403d29a42130f10c08c529fd3c5d-2400x3000.jpg;United States;🇺🇸;Woman;STS-125 (2009), SpaceX Crew-2 (2021);2;334:22:28
+Nicole Marie Passonno Stott;514;https://cdn.sanity.io/images/2vtv415l/production/a0171d82a02fd05ca50833bfbb215653e017dd90-1024x1280.jpg;United States;🇺🇸;Woman;STS-128 (2009), STS-133 (2011);2;026:15:58
+Dorothy Metcalf-Lindenburger;525;https://cdn.sanity.io/images/2vtv415l/production/3ec2f0b08c2b544ba5c008f325168650ce2bfda2-3200x4000.jpg;United States;🇺🇸;Woman;STS-131 (2010);1;015:02:47
+Naoko Yamazaki;526;https://cdn.sanity.io/images/2vtv415l/production/7da76a64261f4a46b34d9749d3152b076b1b7e89-5412x7216.jpg;Japan;🇯🇵;Woman;STS-131 (2010);1;015:02:47
+Shannon Walker;527;https://cdn.sanity.io/images/2vtv415l/production/8504f961ae692a3007ab5d73ecfea45d33096c1d-630x786.jpg;United States;🇺🇸;Woman;Soyuz TMA-19 (2010), SpaceX Crew-1 (2020);2;330:13:40
+Liu Yang;537;https://cdn.sanity.io/images/2vtv415l/production/38b491c32698557b82622737e63b38e8d07b2b67-450x433.jpg;China;🇨🇳;Woman;Shenzhou 9 (2012);1;012:15:23
+Yelena Serova;549;https://cdn.sanity.io/images/2vtv415l/production/465f4141ce893e467223b71b769e20ad29f77ea4-1249x1993.jpg;Russia;🇷🇺;Woman;Soyuz TMA-14M (2014);1;167:05:42
+Samantha Cristoforetti;550;https://cdn.sanity.io/images/2vtv415l/production/4363fa5425c5ff4fc9e2398f809a87a90d1deba2-1365x2048.jpg;Italy;🇮🇹;Woman;Soyuz TMA-15M (2014);1;199:16:42
+Kathleen Rubins;558;https://cdn.sanity.io/images/2vtv415l/production/1f815f31366099521110dde02e5d930d74a43255-800x1000.jpg;United States;🇺🇸;Woman;Soyuz MS-01 (2016), Soyuz MS-17 (2020);2;300:01:31
+Serena Auñón-Chancellor;567;https://cdn.sanity.io/images/2vtv415l/production/bc2ffe44c419306f5051c79f207bb78df79f6c99-2400x3000.jpg;United States;🇺🇸;Woman;Soyuz MS-09 (2018);1;196:12:43
+Anne McClain;570;https://cdn.sanity.io/images/2vtv415l/production/6eb13bc1f54625ea91f7aec8a45dbb8bd6402cdb-3000x4000.jpg;United States;🇺🇸;Woman;Soyuz MS-11 (2018);1;203:15:16
+Christina Koch;575;https://cdn.sanity.io/images/2vtv415l/production/69ce60cf0c1db691280f8e0eed2eeb75eeeac152-5873x7342.jpg;United States;🇺🇸;Woman;Soyuz MS-12 (2019);1;328:13:58
+Jessica Meir;577;https://cdn.sanity.io/images/2vtv415l/production/bdd66e5a5f956874ebc8215210d4a75509f2ee1c-6876x8595.jpg;United States;🇺🇸;Woman;Soyuz MS-15 (2019);1;204:15:19

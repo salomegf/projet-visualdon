@@ -57,7 +57,7 @@ function displayPage(currentPage) {
         page5(astronautes, femmes, hommes)
     }
     if (currentPage == 6) {
-        page6(astronautes, femmes, hommes)
+        page6(astronautes, femmes)
     }
 }
 
