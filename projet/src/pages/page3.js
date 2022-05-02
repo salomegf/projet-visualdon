@@ -4,6 +4,7 @@ const stringToMs = require('string-to-ms');
 const msToString = require('pretty-ms');
 
 function page3(astronautes, femmes, hommes) {
+    document.querySelector('h2').innerHTML = "Moyennes";
     const margin = {
             top: 10,
             right: 10,

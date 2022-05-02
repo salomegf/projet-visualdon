@@ -1,6 +1,7 @@
 function svg(margin, width, height) {
-    const body = d3.select("body");
-    body.append("svg");
+    const div = d3.select("#viz");
+    div.html("");
+    div.append("svg");
 
     const svg = d3.select("svg");
 

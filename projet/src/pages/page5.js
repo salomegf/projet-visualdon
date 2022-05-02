@@ -2,6 +2,7 @@
 import svg from './svg.js'
 
 function page5(astronautes, femmes, hommes) {
+    document.querySelector('h2').innerHTML = "À travers le monde";
     const margin = {
             top: 10,
             right: 10,
@@ -178,10 +179,6 @@ function page5(astronautes, femmes, hommes) {
         })
         .attr("text-anchor", "left")
         .attr("alignment-baseline", "middle")
-
-    g.selectAll("text")
-        .style("font-family", "Roboto")
-
 }
 
 export default page5

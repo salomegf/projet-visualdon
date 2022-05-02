@@ -2,6 +2,7 @@
 import svg from './svg.js'
 
 function page1(astronautes) {
+    document.querySelector('h2').innerHTML = "Tous.tes les astronautes";
     const margin = {
             top: 10,
             right: 10,
@@ -20,7 +21,7 @@ function page1(astronautes) {
     g.selectAll("circle")
         .data(
             d3.gridding()
-            .size([width, height])
+            .size([width - 150, height])
             .mode("grid")(d3.range(nbrAstronautes))
         )
         .enter().append("circle")
