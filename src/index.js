@@ -20,7 +20,7 @@ const hommes = astronautes.filter((d, i) => {
 })
 
 const nbPages = 6;
-let currentPage = 4;
+let currentPage = 1;
 
 function prev() {
     if (currentPage == 1) {
