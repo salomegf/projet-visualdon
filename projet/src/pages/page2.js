@@ -63,7 +63,7 @@ function page2(astronautes, femmes, hommes) {
         .append("circle")
         .attr("cx", width - 120)
         .attr("cy", function (d, i) {
-            return 95 + i * 25
+            return 75 + i * 25
         })
         .attr("r", 5)
         .style("fill", function (d, i) {
@@ -77,7 +77,7 @@ function page2(astronautes, femmes, hommes) {
         .append("text")
         .attr("x", width - 110)
         .attr("y", function (d, i) {
-            return 100 + i * 25
+            return 80 + i * 25
         })
         .style("fill", "black")
         .text(function (d) {

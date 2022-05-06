@@ -30,6 +30,46 @@ function page1(astronautes) {
         .attr("transform", function (d) {
             return "translate(" + d.cx + "," + d.cy + ")";
         })
+
+    //Légende
+    const couleurs = ['black']
+    const legende = ['Astronaute']
+
+    g.append("text")
+        .attr("x", width - 125)
+        .attr("y", 50)
+        .text('Légende')
+        .attr("font-weight", "bold")
+
+    // Add one dot in the legend for each name.
+    g.selectAll("mydots")
+        .data(couleurs)
+        .enter()
+        .append("circle")
+        .attr("cx", width - 120)
+        .attr("cy", function (d, i) {
+            return 75 + i * 25
+        })
+        .attr("r", 5)
+        .style("fill", function (d, i) {
+            return d
+        })
+
+    // Add one label in the legend for each name.
+    g.selectAll("mylabels")
+        .data(legende)
+        .enter()
+        .append("text")
+        .attr("x", width - 110)
+        .attr("y", function (d, i) {
+            return 80 + i * 25
+        })
+        .style("fill", "black")
+        .text(function (d) {
+            return d
+        })
+        .attr("text-anchor", "left")
+        .attr("alignment-baseline", "middle")
 }
 
 export default page1

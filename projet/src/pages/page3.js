@@ -39,12 +39,13 @@ function page3(astronautes, femmes, hommes) {
 
     for (let i = 0; i < Math.round(missionsHommesAvg); i++) {
         gMissionsHommes.append("circle")
-            .attr("cx", width / 6)
+            .attr("cx", (width - 150) / 6)
             .attr("cy", height - 20 - (i * 12))
             .attr("r", 5)
+            .style("fill", "lightgray")
     }
     gMissionsHommes.append("text")
-        .attr("x", width / 6)
+        .attr("x", (width - 150) / 6)
         .attr("y", height)
         .attr("text-anchor", "middle")
         .text(missionsHommesAvg + " missions")
@@ -56,17 +57,16 @@ function page3(astronautes, femmes, hommes) {
 
     for (let i = 0; i < Math.round(missionsFemmesAvg); i++) {
         gMissionsFemmes.append("circle")
-            .attr("cx", width / 6 + width / 2)
+            .attr("cx", (width - 150) / 6 + (width - 150) / 2)
             .attr("cy", height - 20 - (i * 12))
             .attr("r", 5)
             .style("fill", "orange")
     }
 
     gMissionsFemmes.append("text")
-        .attr("x", width / 6 + width / 2)
+        .attr("x", (width - 150) / 6 + (width - 150) / 2)
         .attr("y", height)
         .attr("text-anchor", "middle")
-        .style("fill", "orange")
         .text(missionsFemmesAvg + " missions")
 
     // Calcul des jours
@@ -111,12 +111,13 @@ function page3(astronautes, femmes, hommes) {
 
     for (let i = 0; i < scale(joursHommesAvgCompact); i++) {
         gJoursHommes.append("circle")
-            .attr("cx", 2 * width / 6)
+            .attr("cx", 2 * (width - 150) / 6)
             .attr("cy", height - 20 - (i * 12))
             .attr("r", 5)
+            .style("fill", "lightgray")
     }
     gJoursHommes.append("text")
-        .attr("x", 2 * width / 6)
+        .attr("x", 2 * (width - 150) / 6)
         .attr("y", height)
         .attr("text-anchor", "middle")
         .text(joursHommesAvgCompact + " jours")
@@ -128,20 +129,59 @@ function page3(astronautes, femmes, hommes) {
 
     for (let i = 0; i < scale(joursFemmesAvgCompact); i++) {
         gJoursFemmes.append("circle")
-            .attr("cx", 2 * width / 6 + width / 2)
+            .attr("cx", 2 * (width - 150) / 6 + (width - 150) / 2)
             .attr("cy", height - 20 - (i * 12))
             .attr("r", 5)
             .style("fill", "orange")
     }
     gJoursFemmes.append("text")
-        .attr("x", 2 * width / 6 + width / 2)
+        .attr("x", 2 * (width - 150) / 6 + (width - 150) / 2)
         .attr("y", height)
         .attr("text-anchor", "middle")
-        .style("fill", "orange")
         .text(joursFemmesAvgCompact + " jours")
 
     g.selectAll("text")
         .style("font-family", "Roboto")
+
+    //Légende
+    const couleurs = ['lightgray', 'orange']
+    const legende = ['Hommes', 'Femmes']
+
+    g.append("text")
+        .attr("x", width - 125)
+        .attr("y", 50)
+        .text('Légende')
+        .attr("font-weight", "bold")
+
+    // Add one dot in the legend for each name.
+    g.selectAll("mydots")
+        .data(couleurs)
+        .enter()
+        .append("circle")
+        .attr("cx", width - 120)
+        .attr("cy", function (d, i) {
+            return 75 + i * 25
+        })
+        .attr("r", 5)
+        .style("fill", function (d, i) {
+            return d
+        })
+
+    // Add one label in the legend for each name.
+    g.selectAll("mylabels")
+        .data(legende)
+        .enter()
+        .append("text")
+        .attr("x", width - 110)
+        .attr("y", function (d, i) {
+            return 80 + i * 25
+        })
+        .style("fill", "black")
+        .text(function (d) {
+            return d
+        })
+        .attr("text-anchor", "left")
+        .attr("alignment-baseline", "middle")
 
 }
 

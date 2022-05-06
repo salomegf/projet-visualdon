@@ -1,4 +1,4 @@
-// 5. À travers le monde
+// 5. Apprendre à les connaître
 import astroFemmes from '../../assets/Women_Astronauts.csv'
 
 function page6(astronautes, femmes) {
@@ -19,7 +19,7 @@ function page6(astronautes, femmes) {
     const div = document.querySelector('#viz');
     div.replaceChildren();
 
-    console.log(astroFemmes);
+    //console.log(astroFemmes);
 
     function compare(a, b) {
         return a - b;

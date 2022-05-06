@@ -1,13 +1,13 @@
-// 3. Moyennes
+// 4. À travers les années
 import svg from './svg.js'
 
 function page4(astronautes, femmes, hommes) {
     document.querySelector('h2').innerHTML = "À travers les années";
     const margin = {
-            top: 25,
-            right: 25,
-            bottom: 25,
-            left: 25
+            top: 10,
+            right: 10,
+            bottom: 45,
+            left: 45
         },
         width = 800 - margin.left - margin.right,
         height = 500 - margin.top - margin.bottom;
@@ -60,7 +60,6 @@ function page4(astronautes, femmes, hommes) {
             year: new Date(year),
             pourcent: 100 * nbFemmes / (nbFemmes + nbHommes)
         });
-
     }
 
     //Graph
@@ -78,8 +77,58 @@ function page4(astronautes, femmes, hommes) {
         .attr("transform", "translate(0," + height + ")")
         .call(d3.axisBottom(x))
 
+
+    g.append('text')
+        .attr("transform", `translate(${(width-150)/2 - 20}, ${height + 35})`)
+        .attr("font-size", 12)
+        .text("années")
+
+
     g.append('g')
         .call(d3.axisLeft(y))
+
+    g.append('text')
+        .attr("transform", `rotate(-90) translate( ${-height / 2 -36}, -30)`)
+        .attr("font-size", 12)
+        .text("% de femmes")
+
+
+    //Tooltip
+    // -1- Create a tooltip that is hidden by default:
+    const tooltip = g.append("text")
+        .attr("x", width - 200)
+        .attr("y", 155)
+
+    // -2- Create 3 functions to show / update (when mouse move but stay on same circle) / hide the tooltip
+    const showTooltip = function (event, d) {
+        tooltip
+            .transition()
+            .duration(200)
+        tooltip
+            .style("opacity", 1)
+            .text(d.year.getFullYear() + " : " + d.pourcent.toFixed(2) + "%")
+        d3.selectAll("rect")
+            .transition()
+            .duration(200)
+        d3.select(this)
+            .transition()
+            .duration(200)
+            .style("stroke", "gray")
+    }
+    const hideTooltip = function (event, d) {
+        tooltip
+            .transition()
+            .duration(200)
+            .style("opacity", 0)
+        d3.selectAll("rect")
+            .transition()
+            .duration(200)
+        d3.select(this)
+            .transition()
+            .duration(200)
+            .style("stroke", "transparent")
+    }
+
 
     //Données
     /* g.selectAll("rect")
@@ -88,7 +137,7 @@ function page4(astronautes, femmes, hommes) {
         .append("rect")
         .attr("x", (d) => x(d.year))
         .attr("y", (d) => y(100))
-        .attr("width", 7)
+        .attr("width", 8)
         .attr("height", (d) => height - y(100))
         .style("fill", "lightgray") */
 
@@ -101,6 +150,31 @@ function page4(astronautes, femmes, hommes) {
         .attr("width", 8)
         .attr("height", (d) => height - y(d.pourcent))
         .style("fill", "orange")
+        .style("stroke", "transparent")
+        // -3- Trigger the functions
+        .on("mouseover", showTooltip)
+        .on("mouseleave", hideTooltip)
+
+    //Légende
+    const couleurs = ['lightgray', 'orange']
+    const legende = ['Hommes', 'Femmes']
+
+    g.append("text")
+        .attr("x", width - 200)
+        .attr("y", 50)
+        .text('Légende')
+        .attr("font-weight", "bold")
+
+    g.append("text")
+        .attr("x", width - 200)
+        .attr("y", 75)
+        .style("fill", "black")
+        .text("% de femmes envoyées")
+    g.append("text")
+        .attr("x", width - 200)
+        .attr("y", 95)
+        .style("fill", "black")
+        .text("dans l'espace")
 }
 
 export default page4

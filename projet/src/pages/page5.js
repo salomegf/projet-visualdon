@@ -81,23 +81,69 @@ function page5(astronautes, femmes, hommes) {
 
         let topo = loadData[0]
 
-        let mouseOver = function (d) {
+        /* let mouseOver = function (d) {
             d3.selectAll(".Country")
                 .transition()
                 .duration(200)
-                .style("opacity", .5)
+                .style("opacity", 1)
             d3.select(this)
                 .transition()
                 .duration(200)
                 .style("opacity", 1)
                 .style("stroke", "gray")
+            showTooltip
         }
 
         let mouseLeave = function (d) {
             d3.selectAll(".Country")
                 .transition()
                 .duration(200)
-                .style("opacity", .8)
+                .style("opacity", 1)
+            d3.select(this)
+                .transition()
+                .duration(200)
+                .style("stroke", "transparent")
+            hideTooltip
+        } */
+
+        //Tooltip
+        // -1- Create a tooltip that is hidden by default:
+        const tooltip = g.append("text")
+            .attr("x", width - 125)
+            .attr("y", 275)
+
+        // -2- Create 3 functions to show / update (when mouse move but stay on same circle) / hide the tooltip
+        const mouseOver = function (event, d) {
+            tooltip
+                .transition()
+                .duration(200)
+            tooltip
+                .style("opacity", 1)
+                .text(function () {
+                    let txt = ""
+                    if (paysPourcentFemmes[d.properties.name] >= 0) {
+                        txt = d.properties.name + " : " + paysPourcentFemmes[d.properties.name].toFixed(2) + "%"
+                    } else {
+                        //txt = "aucune donnée"
+                    }
+                    return txt
+                })
+            d3.selectAll(".Country")
+                .transition()
+                .duration(200)
+            d3.select(this)
+                .transition()
+                .duration(200)
+                .style("stroke", "gray")
+        }
+        const mouseLeave = function (event, d) {
+            tooltip
+                .transition()
+                .duration(200)
+                .style("opacity", 0)
+            d3.selectAll(".Country")
+                .transition()
+                .duration(200)
             d3.select(this)
                 .transition()
                 .duration(200)
@@ -123,7 +169,7 @@ function page5(astronautes, femmes, hommes) {
             .attr("class", function (d) {
                 return d.properties.name
             })
-            .style("opacity", .8)
+            .style("opacity", 1)
             .on("mouseover", mouseOver)
             .on("mouseleave", mouseLeave)
     })
