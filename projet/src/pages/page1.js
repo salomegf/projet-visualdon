@@ -25,6 +25,7 @@ function page1(astronautes) {
             .mode("grid")(d3.range(nbrAstronautes))
         )
         .enter().append("circle")
+        .transition().duration(700)
         .attr("r", 5)
         .attr("class", (d, i) => astronautes[i].Gender)
         .attr("transform", function (d) {

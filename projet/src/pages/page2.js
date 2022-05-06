@@ -28,15 +28,18 @@ function page2(astronautes, femmes, hommes) {
         .enter().append("circle")
         .attr("r", 5)
         .attr("class", (d, i) => astronautes[i].Gender)
+        
         .attr("transform", function (d) {
             return "translate(" + d.cx + "," + d.cy + ")";
         })
+        .transition().duration(500)
         .style("fill", function (d, i) {
             if (i > nbrHommes - 1) {
                 return "orange";
             } else {
                 return "lightgray";
             }
+        
         })
         /* .style("fill", function (d, i) {
             if (astronautes[i].Gender == "Woman") {

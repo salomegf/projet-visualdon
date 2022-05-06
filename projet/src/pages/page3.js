@@ -41,6 +41,7 @@ function page3(astronautes, femmes, hommes) {
         gMissionsHommes.append("circle")
             .attr("cx", (width - 150) / 6)
             .attr("cy", height - 20 - (i * 12))
+            .transition().duration(700)
             .attr("r", 5)
             .style("fill", "lightgray")
     }
@@ -59,6 +60,7 @@ function page3(astronautes, femmes, hommes) {
         gMissionsFemmes.append("circle")
             .attr("cx", (width - 150) / 6 + (width - 150) / 2)
             .attr("cy", height - 20 - (i * 12))
+            .transition().duration(700)
             .attr("r", 5)
             .style("fill", "orange")
     }
@@ -113,6 +115,7 @@ function page3(astronautes, femmes, hommes) {
         gJoursHommes.append("circle")
             .attr("cx", 2 * (width - 150) / 6)
             .attr("cy", height - 20 - (i * 12))
+            .transition().duration(700)
             .attr("r", 5)
             .style("fill", "lightgray")
     }
@@ -131,6 +134,7 @@ function page3(astronautes, femmes, hommes) {
         gJoursFemmes.append("circle")
             .attr("cx", 2 * (width - 150) / 6 + (width - 150) / 2)
             .attr("cy", height - 20 - (i * 12))
+            .transition().duration(700)
             .attr("r", 5)
             .style("fill", "orange")
     }
