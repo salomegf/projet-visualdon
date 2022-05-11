@@ -38,9 +38,6 @@ function page5(astronautes, femmes, hommes) {
     const paysCount = countPays(astronautes);
 
     const tousPays = Object.keys(paysCount);
-    //console.log(tousPays);
-
-    //console.log(Object.keys(paysCount).length);
 
     const paysPourcentFemmes = {};
     for (const pays of tousPays) {
@@ -123,8 +120,6 @@ function page5(astronautes, femmes, hommes) {
                     let txt = ""
                     if (paysPourcentFemmes[d.properties.name] >= 0) {
                         txt = d.properties.name + " : " + paysPourcentFemmes[d.properties.name].toFixed(2) + "%"
-                    } else {
-                        //txt = "aucune donnée"
                     }
                     return txt
                 })
@@ -175,9 +170,6 @@ function page5(astronautes, femmes, hommes) {
     })
 
     //Légende
-    //console.log(colorScale.domain());
-    //console.log(colorScale(colorScale.domain()[0]));
-
     const domaine = colorScale.domain();
     domaine.unshift(0);
     domaine.push(undefined);

@@ -39,3 +39,8 @@ header {
 p {
     margin: 0em;
 }
+
+button {
+    background-color: transparent;
+    border: 0px;
+}

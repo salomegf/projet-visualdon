@@ -45,12 +45,8 @@ function page4(astronautes, femmes, hommes) {
     const yearsCount = years(astronautes);
     const yearsFemmesCount = years(femmes);
     const yearsHommesCount = years(hommes);
-    /* console.log(yearsFlights);
-    console.log(yearsFemmes);
-    console.log(yearsHommes); */
 
     const yearsAll = Object.keys(yearsCount);
-    //console.log(yearsAll);
 
     const yearsPourcentFemmes = [];
     for (const year of yearsAll) {
