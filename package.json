@@ -1,13 +1,13 @@
 {
-  "name": "02-intro-d3",
+  "name": "astronautes",
   "version": "1.0.0",
-  "description": "Exercice 2",
+  "description": "Data Astronautes",
   "main": "src/index.js",
   "scripts": {
-    "build": "babel src -d lib",
+    "build": "webpack",
     "start": "webpack-dev-server"
   },
-  "author": "Noemi Romano",
+  "author": "Salomé Gfeller",
   "license": "ISC",
   "dependencies": {
     "d3": "^7.3.0",
